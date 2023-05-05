@@ -68,3 +68,5 @@ app.get('/',async (req,res)=>{
         items
     });
 })
+
+app.listen(3456,()=>{console.log("listening")});
